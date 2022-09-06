@@ -6,8 +6,8 @@ export async function sendMail(str, data) {
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-      user: '', // generated ethereal user
-      pass: "", // generated ethereal password
+      user: 'akshayhat@gmail.com', // generated ethereal user
+      pass: "vkeusmcygdbonezg", // generated ethereal password
     },
   });
 
