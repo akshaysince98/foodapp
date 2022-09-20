@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "engines": {
-    "node": "16.x"
+    "node": "16."
   },
   "type": "module",
   "dependencies": {
