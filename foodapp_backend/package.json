@@ -1,4 +1,11 @@
 {
+  "name": "foodapp_backend",
+  "description": "a really cool app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "engines": {
+    "node": "16.x"
+  },
   "type": "module",
   "dependencies": {
     "cookie-parser": "^1.4.6",

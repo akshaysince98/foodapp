@@ -7,7 +7,10 @@ app.use(express.static('public/build'));
 import cookieParser from 'cookie-parser';
 //middleware func-> post, front-> json
 app.use(express.json()); //global middleware 
-app.listen(3000);
+const port = process.env.PORT || 3000;
+app.listen(port, function () {
+  console.log(`server listening on port ${port}`)
+});
 app.use(cookieParser());
 
 //mini app
